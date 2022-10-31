@@ -1,0 +1,14 @@
+[package]
+name = "ci"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+git2 = "0.15.0"
+log = "0.4.17"
+tokio = "1.21.2"
+url = "2.3.1"
+dirs = "4"
+regex = "1.6.0"
